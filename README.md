@@ -8,8 +8,6 @@ Using MongoDB,Passport,Passport-local
 npm install
 yarn install
 ```
-<br>
-
 ### Will be updated on future
 Todo:
 Rewrite README
