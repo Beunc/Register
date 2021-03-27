@@ -21,7 +21,7 @@ MongoClient.connect('mongodb://localhost/user-profiles',  { useUnifiedTopology: 
   if (err) {
     throw err;
   }
-console.log('works')
+console.log('Connected to Database')
   const db = client.db('user-profiles');
   const users = db.collection('users');
   app.locals.users = users;
